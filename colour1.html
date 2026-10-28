@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07111f">
+
+<title>Mohit Aggarwal Trader | Trading Education</title>
+
+<meta name="description"
+content="Explore trading education, market concepts, chart analysis and risk management with Mohit Aggarwal Trader.">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #07111f;
+  --card: #101e30;
+  --green: #39e6a1;
+  --white: #f5f8ff;
+  --muted: #aab8ca;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--white);
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  padding: 18px 0;
+  border-bottom: 1px solid #26364a;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.logo span {
+  color: var(--green);
+}
+
+.tag {
+  font-size: 10px;
+  color: var(--green);
+  border: 1px solid #285b4d;
+  border-radius: 30px;
+  padding: 5px 9px;
+}
+
+.hero {
+  padding: 48px 0 35px;
+  text-align: center;
+}
+
+.eyebrow {
+  color: var(--green);
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: clamp(32px, 7vw, 55px);
+  line-height: 1.15;
+  margin: 17px 0;
+  letter-spacing: 0.5px;
+}
+
+h1 span {
+  color: var(--green);
+}
+
+.subtitle {
+  max-width: 600px;
+  margin: 0 auto 24px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.chart {
+  max-width: 570px;
+  margin: 25px auto;
+  padding: 18px;
+  border: 1px solid #263951;
+  border-radius: 16px;
+  background: linear-gradient(140deg, #142d3b, #0c1929);
+}
+
+.chart-top {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+
+.chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  background: var(--green);
+  color: #06151b;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #79f2c2;
+  transform: translateY(-2px);
+}
+
+.note {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.section {
+  padding: 28px 0;
+}
+
+.section h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.intro {
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid #26364a;
+  border-radius: 13px;
+  padding: 16px 13px;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin: 7px 0;
+}
+
+.card p {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.join-box {
+  text-align: center;
+  padding: 27px 16px;
+  margin: 25px auto;
+  border: 1px solid #2b6252;
+  border-radius: 17px;
+  background: linear-gradient(135deg, #14333a, #101b30);
+}
+
+.join-box h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.join-box p {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 19px;
+}
+
+.disclaimer {
+  border-left: 3px solid #e7b65b;
+  background: #111c2b;
+  border-radius: 5px;
+  padding: 14px;
+  color: #c4cfdd;
+  font-size: 11px;
+  margin: 20px 0;
+}
+
+footer {
+  border-top: 1px solid #26364a;
+  padding: 20px 0;
+  text-align: center;
+  color: #94a4b9;
+  font-size: 11px;
+}
+
+@media (min-width: 700px) {
+  .hero {
+    padding-top: 65px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">
+      MOHIT <span>AGGARWAL TRADER</span>
+    </div>
+    <div class="tag">TRADING EDUCATION</div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO SECTION -->
+
+  <section class="hero container">
+
+    <p class="eyebrow">LEARN • ANALYSE • UNDERSTAND</p>
+
+    <h1>
+      MOHIT AGGARWAL<br>
+      <span>TRADER</span>
+    </h1>
+
+    <p class="subtitle">
+      Welcome to the trading education community.
+      Explore market fundamentals, technical analysis,
+      chart patterns and risk management concepts.
+    </p>
+
+    <!-- Illustrative chart -->
+
+    <div class="chart">
+      <div class="chart-top">
+        <span>MARKET EDUCATION</span>
+        <span>Illustrative chart</span>
+      </div>
+
+      <svg viewBox="0 0 320 145"
+           xmlns="http://www.w3.org/2000/svg"
+           role="img"
+           aria-label="Illustrative trading chart">
+
+        <g stroke="#2b4054" stroke-width="1">
+          <path d="M0 25 H320 M0 55 H320 M0 85 H320 M0 115 H320"/>
+          <path d="M40 0 V145 M100 0 V145 M160 0 V145 M220 0 V145 M280 0 V145"/>
+        </g>
+
+        <polyline
+          points="5,117 32,99 57,108 83,76 108,88 137,52 163,67 191,37 216,51 245,24 274,39 315,12"
+          fill="none"
+          stroke="#39e6a1"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+        <circle cx="315" cy="12" r="4" fill="#39e6a1"/>
+      </svg>
+    </div>
+
+    <a class="button"
+       href="https://t.me/YOUR_CHANNEL"
+       target="_blank"
+       rel="noopener noreferrer">
+      ✈ JOIN TELEGRAM CHANNEL
+    </a>
+
+    <p class="note">
+      Educational content • Market concepts • Risk awareness
+    </p>
+
+  </section>
+
+  <!-- LEARNING SECTION -->
+
+  <section class="section container">
+
+    <h2>What You Can Learn</h2>
+
+    <p class="intro">
+      Understand the basics of financial markets step by step.
+    </p>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="icon">📊</div>
+        <h3>Market Basics</h3>
+        <p>Learn market terminology and how trading works.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📈</div>
+        <h3>Chart Analysis</h3>
+        <p>Explore chart reading, trends and technical indicators.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📚</div>
+        <h3>Trading Concepts</h3>
+        <p>Understand price action and common chart patterns.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🛡️</div>
+        <h3>Risk Management</h3>
+        <p>Learn about potential losses and risk management.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TELEGRAM SECTION -->
+
+  <section class="container">
+
+    <div class="join-box">
+
+      <p class="eyebrow">TRADING LEARNING COMMUNITY</p>
+
+      <h2>Join Our Telegram Channel</h2>
+
+      <p>
+        Explore educational updates, market concepts
+        and trading learning resources.
+      </p>
+
+      <a class="button"
+         href="https://t.me/YOUR_CHANNEL"
+         target="_blank"
+         rel="noopener noreferrer">
+        JOIN TELEGRAM NOW →
+      </a>
+
+    </div>
+
+    <div class="disclaimer">
+      <strong>Risk Disclaimer:</strong>
+      Trading in financial markets involves risk and can result
+      in financial losses. This page is for educational purposes
+      only and does not constitute investment advice or a
+      recommendation to buy or sell financial instruments.
+      No profit or return is guaranteed. Please make informed
+      decisions and seek qualified professional advice if needed.
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Mohit Aggarwal Trader</p>
+    <p>Trading Education | Market Risk Applies</p>
+  </div>
+</footer>
+
+</body>
+</html>
